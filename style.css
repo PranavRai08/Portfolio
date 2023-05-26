@@ -1,0 +1,334 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Condensed:ital,wght@1,300&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Oswald:wght@300&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=IBM+Plex+Serif:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Comic+Neue:wght@700&family=IBM+Plex+Serif:ital@1&display=swap');
+
+
+/* home */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color:rgb(182, 210, 248);
+    /* width: 20vw; */
+    position: absolute;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 4px;
+
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 18px;
+    padding: 26px 24px;  
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Comic Neue', cursive;
+}
+
+.main{
+    /* background-color: rgb(94, 218, 218); */
+    width: 89vw;
+}
+
+.container{
+    display: flex;
+    /* background-color: rgb(174, 224, 240); */
+    background-image: url(https://cdn.wallpapersafari.com/15/56/rZJpjL.png);
+}
+
+
+.infocontainer{
+    /* background-color: red; */
+    height: 50vh;
+    width: 66vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+ font-size: 30px;
+ /* font-family: 'Oswald', sans-serif; */
+
+}
+.name{
+ font-size: 22px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-weight: bold;
+}
+.about{
+ font-size: 18px;
+ font-family: 'Cairo', sans-serif;
+}
+
+.moreabout{
+    font-size: 14px;
+    font-family: 'IBM Plex Serif', serif;
+   
+}
+
+.buttons{
+    margin-top: 11px ;
+}
+
+.buttons button{
+  padding: 4px;
+  border-radius: 13px;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  background-color: skyblue;
+  font-weight: bold;
+ 
+
+}
+
+.buttons button a{
+  text-decoration: none;
+  color: black;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color:skyblue;
+}
+
+.devpic img{
+    height: 50vh;
+    
+}
+
+        /* Contect */
+
+.contect h3{
+  align-items: center;
+  
+}
+
+.contectform{
+    padding: 219px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px 90px;
+}
+
+.contectform h3{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+text-align: center;
+font-family: 'Comic Neue', cursive;
+}
+
+.mb-3 input{
+  border-color: black;
+  border-radius: 5px;
+}
+
+.form-label{
+    font-weight: bold;
+}
+
+.form-box-input{
+    border-color: black;
+  border-radius: 5px;
+}
+
+
+.btnbtn-primary{
+    padding: 4px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: skyblue;
+    font-weight: bold;
+   
+}
+
+.btnbtn-primary:hover{
+    background-color: white;
+    color:skyblue;
+}
+
+/* blog */
+
+
+
+.blog h1{
+    padding: 3px 458px;
+
+}
+
+.blog p1{
+    padding: 1px 366px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.type{
+    background: black;
+    color: white;
+    
+}
+
+.blogitem{
+    padding: 34px 34px;
+    margin: 0px 90px;
+}
+
+.blogitem p2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.blogitem button{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 4px;
+    border-radius: 13px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: skyblue;
+    font-weight: bold;
+    display: flex;
+} 
+
+.blogitem button:hover{
+    background-color: white;
+    color:skyblue;
+
+}
+
+
+/* intro */
+
+.intro{
+    padding: 34px 34px;
+   /* font-family: 'Cairo', sans-serif; */
+   font-size: 18px;
+    font-family: 'IBM Plex Serif', serif;
+    margin: 0px 136px;
+   
+}
+
+
+.skill1{
+    width: 249px;
+    height: 5px;
+    background-color: red;
+}
+
+.skill2{
+    width: 193px;
+    height: 5px;
+    background-color: red;
+}
+
+.skill3{
+    width: 90px;
+    height: 5px;
+    background-color: red;
+}
+
+.skill4{
+    width: 121px;
+    height: 5px;
+    background-color: red;
+}
+
+.skill5{
+    width: 220px;
+    height: 5px;
+    background-color: red;
+}
+
+.projects{
+    margin-top: 34px;
+}
+
+.projects img{
+    height: 116px;
+    
+}
+
+@media (max-width: 857px) {
+    /* *{ */ 
+        /* background-color: rgb(231, 220, 220); */
+   
+        
+.devpic{
+    display: none;
+        }
+    }
+    
+
+/* .sidebar{ */
+    /* transform: translate(-443px, 0px); */
+    /* position: absolute; */
+ 
+
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 110px;
+    margin-top: 5px;
+}
+
+.ham{
+    margin-top: 10px ;
+    margin-left: 10px;
+}
+
+/* services */
+
+.service{
+    padding: 34px;
+    margin: 0px 90px;
+}
+
+.service h2{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    margin: -13px 400px;
+    padding: 20px 3px;
+    font-family: 'Comic Neue', cursive;
+    
+}
+
+
+
+.service img{
+    width: 1280px;
+    height: 470px;
+    padding: 34px;
+    margin: -30px -162px;
+}
